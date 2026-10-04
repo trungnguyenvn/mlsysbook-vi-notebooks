@@ -14,6 +14,16 @@ tham số ở phần *Thử thêm*, dấu `✗` là điều được chờ đợ
 
 Các tệp `.ipynb` ở đây được sinh tự động và không kèm kết quả chạy.
 
+## [Nhập môn hệ thống học máy](https://d3lu8vk4we0dc.cloudfront.net/lessons/vol1-ch01-introduction/)
+
+*Machine Learning Systems — Tập I, Chương 1*
+
+| | Sổ tay | Nội dung |
+|---|---|---|
+| [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/mlsysbook-vi-notebooks/blob/main/vol1-ch01-introduction/01-dinh-luat-sat-gpt3.ipynb) | [Định luật sắt: GPT-3 và số hạng chi phối](vol1-ch01-introduction/01-dinh-luat-sat-gpt3.ipynb) | Làm lại Napkin Math 1.1 (GPT-3 trên 1,024 bộ tăng tốc, 25 rồi 19 ngày), quét số bộ tăng tốc, thông lượng đỉnh và mức sử dụng, đặt AlexNet, GPT-3 và GPT-4 lên một thang GPU-ngày, tìm số hạng chi phối ở một job huấn luyện, đường ống 130 ms và một tầng tuyến tính đo trên CPU, rồi tính thuế năng lượng theo batch và RoC. |
+| [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/mlsysbook-vi-notebooks/blob/main/vol1-ch01-introduction/02-hanh-vi-nam-trong-du-lieu.ipynb) | [Hành vi nằm trong dữ liệu: nhãn hỏng và suy giảm âm thầm](vol1-ch01-introduction/02-hanh-vi-nam-trong-du-lieu.ipynb) | Tính khoảng trống kiểm chứng của ImageNet tới từng chữ số, đổi quy trình gán nhãn mà giữ nguyên mã huấn luyện, so cách sửa lấy mô hình làm trung tâm với cách lấy dữ liệu làm trung tâm, rồi cho ánh sáng đổi dần 12 tháng trên MNIST: độ chính xác tụt mà dịch vụ không báo lỗi, khớp phương trình suy giảm, đặt ngưỡng trôi và chẩn đoán theo D·A·M. |
+| [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/mlsysbook-vi-notebooks/blob/main/vol1-ch01-introduction/03-bai-hoc-dang-va-hieu-qua.ipynb) | [Bài học đắng và ba chiều của hiệu quả](vol1-ch01-introduction/03-bai-hoc-dang-va-hieu-qua.ipynb) | Đặt 34 đặc trưng do người thiết kế cạnh điểm ảnh thô theo lượng dữ liệu, ước lượng độ co giãn của đường cong học tập theo ba hướng chi thêm 10 % phép toán, đo ba chiều hiệu quả trên phương trình chi phí (lấy mẫu theo độ bất định, đổi bộ tối ưu, chạy cả khối), rồi tính các nhịp 44.5×, 15 tháng, 3.4 tháng và khoảng cách hệ thống. |
+
 ## [Hệ thống học máy, bốn môi trường triển khai](https://d3lu8vk4we0dc.cloudfront.net/lessons/vol1-ch02-ml-systems/)
 
 *Machine Learning Systems — Tập I, Chương 2*
