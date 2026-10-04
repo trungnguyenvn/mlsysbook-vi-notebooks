@@ -14,6 +14,17 @@ tham số ở phần *Thử thêm*, dấu `✗` là điều được chờ đợ
 
 Các tệp `.ipynb` ở đây được sinh tự động và không kèm kết quả chạy.
 
+## [Hệ thống học máy, bốn môi trường triển khai](https://d3lu8vk4we0dc.cloudfront.net/lessons/vol1-ch02-ml-systems/)
+
+*Machine Learning Systems — Tập I, Chương 2*
+
+| | Sổ tay | Nội dung |
+|---|---|---|
+| [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/mlsysbook-vi-notebooks/blob/main/vol1-ch02-ml-systems/01-dinh-luat-sat-va-diem-nghen.ipynb) | [Định luật sắt và điểm nghẽn](vol1-ch02-ml-systems/01-dinh-luat-sat-va-diem-nghen.ipynb) | Viết định luật sắt thành một hàm, làm lại phép tính ResNet-50 trên bộ tăng tốc cloud và NPU di động, vẽ roofline và tìm batch vượt điểm gãy, xem vì sao thêm FLOP không giúp một tải nghẽn ở bộ nhớ, tính thời gian sinh một token của GPT-2 và Llama, rồi cộng dồn tường bộ nhớ và áp định luật Amdahl lên đường ống chụp ảnh. |
+| [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/mlsysbook-vi-notebooks/blob/main/vol1-ch02-ml-systems/02-khoang-cach-bang-thong-nang-luong.ipynb) | [Khoảng cách, băng thông và năng lượng](vol1-ch02-ml-systems/02-khoang-cach-bang-thong-nang-luong.ipynb) | Tính mức sàn độ trễ do ánh sáng và khoảng cách mỗi ngân sách cho phép, áp bất biến cục bộ dữ liệu cho drone 4K và tìm cỡ dữ liệu tối đa đường xa còn kịp, tính điểm nghẽn băng thông của 100 camera nhà máy và mức giảm khi chỉ gửi siêu dữ liệu, so năng lượng truyền với suy luận tại chỗ, rồi tính bức tường năng lực của trợ lý giọng nói trên cloud. |
+| [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/mlsysbook-vi-notebooks/blob/main/vol1-ch02-ml-systems/03-bon-moi-truong-theo-bac-do-lon.ipynb) | [Bốn môi trường theo bậc độ lớn](vol1-ch02-ml-systems/03-bon-moi-truong-theo-bac-do-lon.ipynb) | Đặt bộ nhớ và công suất của TPU v4 Pod, DGX Spark, điện thoại và ESP32-S3 lên thang log, xem trọng số mô hình đại diện nào vừa thiết bị nào ở FP32 và INT8, kiểm lại bảng năng lượng cho mỗi lần suy luận bằng số lượt mỗi pin, tính thuế pin, tường nhiệt và kho của cảm biến thu hoạch năng lượng, làm lại TCO cloud và edge cùng việc chọn bộ tăng tốc cho 500 cửa hàng, rồi tính một thiết bị mỗi môi trường cần bao lâu để huấn luyện GPT-3. |
+| [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/mlsysbook-vi-notebooks/blob/main/vol1-ch02-ml-systems/04-do-tren-cpu-tinh-toan-hay-bo-nho.ipynb) | [Đo trên CPU: nghẽn ở tính toán hay nghẽn ở bộ nhớ](vol1-ch02-ml-systems/04-do-tren-cpu-tinh-toan-hay-bo-nho.ipynb) | Đo thông lượng đỉnh và băng thông của chính máy bạn rồi suy ra điểm gãy, đo phụ trội cố định, cache và DRAM trên một phép cộng, quét batch của một tầng tuyến tính từ nghẽn ở bộ nhớ sang nghẽn ở tính toán và so với định luật sắt dựng từ hai con số đo được, đặt mọi phép toán lên roofline của máy, đo tra bảng embedding theo ba thứ tự, rồi ước lượng thời gian sinh một token GPT-2. |
+
 ## [Tính toán nơ-ron](https://d3lu8vk4we0dc.cloudfront.net/lessons/vol1-ch05-nn-computation/)
 
 *Machine Learning Systems — Tập I, Chương 5*
