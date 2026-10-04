@@ -166,6 +166,14 @@ Các tệp `.ipynb` ở đây được sinh tự động và không kèm kết q
 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/mlsysbook-vi-notebooks/blob/main/vol1-ch15-responsible-engr/02-cai-gia-cua-cong-bang.ipynb) | [Ba định nghĩa công bằng, và cái giá của việc chọn một](vol1-ch15-responsible-engr/02-cai-gia-cua-cong-bang.ipynb) | Tính ba định nghĩa công bằng từ bảng 6 và 7 với một bộ theo dõi báo chưa đủ dữ liệu, cho một biến thay thế mang thiên lệch của nhãn lịch sử trở lại sau khi bỏ cột nhóm, kiểm đẳng thức nối FPR với tỉ lệ nền và PPV, vẽ hai đường ROC và biên Pareto đo được giữa độ chính xác và chênh lệch, rồi lặp lại phép tính nhẩm 1.2 (lỗ 2,000 đô la, 20 phần trăm) và đo lợi ích của nhóm B theo ngưỡng. |
 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/mlsysbook-vi-notebooks/blob/main/vol1-ch15-responsible-engr/03-tien-carbon-va-dau-vet-du-lieu.ipynb) | [Cái giá ngoài độ chính xác: tiền, carbon, và dấu vết dữ liệu](vol1-ch15-responsible-engr/03-tien-carbon-va-dau-vet-du-lieu.ipynb) | Đặt bốn mô hình của bảng 12 lên bốn ngân sách ở biên, dựng lại ba sổ cái tổng chi phí sở hữu của bảng 13 đến 16 (tỉ lệ 40 trên 1, carbon suy luận gấp 63 lần, giảm 20 phần trăm tiết kiệm 304 nghìn đô la), đo gom batch trên CPU, lặp lại phép tính nhẩm 1.3 và 1.4 (GPT-3, 552 tấn) với phép quét cường độ carbon và PUE, dời một việc sang giờ sạch hơn, rồi theo một yêu cầu xoá qua đồ thị phả hệ, đo suy luận thành viên trước và sau khi huấn luyện lại, và mô phỏng ngân sách của quyền riêng tư vi sai. |
 
+## [Kết luận — lập luận xuyên ranh giới](https://d3lu8vk4we0dc.cloudfront.net/lessons/vol1-ch16-conclusion/)
+
+*Machine Learning Systems — Tập I, Chương 16*
+
+| | Sổ tay | Nội dung |
+|---|---|---|
+| [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/trungnguyenvn/mlsysbook-vi-notebooks/blob/main/vol1-ch16-conclusion/01-muoi-ba-nguyen-ly-thanh-ma.ipynb) | [Mười ba nguyên lý thành mã: một token của Llama 2 70B đi qua cả tập sách](vol1-ch16-conclusion/01-muoi-ba-nguyen-ly-thanh-ma.ipynb) | Viết mỗi nguyên lý định lượng của bảng 2 thành một hàm nhỏ và áp vào phép tính nhẩm 1.1 (140 GB, 140 GFLOP, 20.9 ms so với 0.07 ms, 295.2 lần), quét gom batch và INT8 trên biểu đồ roofline, đếm năng lượng theo sự kiện, đặt trần Amdahl (10 lần thành 1.1 lần), dựng một biên Pareto đo được rồi đặt ngân sách độ trễ lên nó, đo khoảng trống kiểm chứng, trôi thống kê và lệch giữa huấn luyện và phục vụ trên load_digits, mô phỏng vòng phản hồi thiên lệch, lần theo một quyết định lượng tử hoá qua tám nguyên lý, rồi đổi phạm vi tới cả cụm (48.8 giờ) và một hệ thống ghép. |
+
 ## Nguồn và giấy phép
 
 Nội dung gốc: [*Machine Learning Systems*](https://mlsysbook.ai/) của Vijay Janapa Reddi và
